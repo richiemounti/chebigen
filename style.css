@@ -62,6 +62,25 @@
     width: 100%;
 }
 
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* proposed section*/
+#proposed {
+    padding: 10px;
+    height: 300px;
+    background-color: green;
+}
+
+#proposed .card{
+    background-color: green;
+    font-family: cursive;
+}
+
 /* statistics section */
 #statistics{
     padding: 10px;
@@ -78,6 +97,16 @@
     font-family: cursive;
 }
 
+/* Departments section*/
+#department {
+    padding: 20px;
+}
+
+#department .buttons{
+    padding: 10px;
+    margin-left: 40%;
+}
+
 /* contacts section */
 #contact {
     padding: 20px;
@@ -91,4 +120,33 @@
 
 #contact .col-lg-6 img{
     width: 100%;
+}
+
+/* lower-img section*/
+#lower-img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* telephone section*/
+#telephone {
+    padding: 20px;
+    background-color: rgb(65, 64, 64);
+    height: 300px;
+}
+
+#telephone .col-lg-4{
+    padding: 30px;
+    font-size: larger;
+    font-family: cursive;
+}
+
+#telephone .col-lg-4 h6{
+    font-size: 30px;
+}
+
+/* footer section*/
+
+#footer{
+    background-color: rgb(65, 64, 64);
 }
