@@ -73,11 +73,11 @@
 #proposed {
     padding: 10px;
     height: 300px;
-    background-color: green;
+    background-color: rgb(125, 128, 125);
 }
 
 #proposed .card{
-    background-color: green;
+    background-color: rgb(125, 128, 125);
     font-family: cursive;
 }
 
@@ -149,4 +149,31 @@
 
 #footer{
     background-color: rgb(65, 64, 64);
+}
+
+/* list group section*/
+
+#list-group {
+    padding: 10px;
+}
+
+
+
+#list-group .container {
+    display: inline;
+}
+
+#boss .container .card{
+    font-family: cursive;
+}
+
+
+/* departments section */
+#main .col-md-9 .card {
+    font-size: large;
+    font-family: cursive;
+}
+
+#main .col-md-3 .card {
+    font-family: cursive;
 }
