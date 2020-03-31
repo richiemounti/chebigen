@@ -1,0 +1,70 @@
+/* nav bar*/
+.navbar-brand {
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.navbar-nav {
+  padding: 25px 50px;
+}
+
+
+#main {
+    padding: 10px;
+}
+
+
+#main .card-body p{
+    font-family: cursive;
+}
+
+
+/* telephone section*/
+#telephone {
+    padding: 20px;
+    background-color: rgb(65, 64, 64);
+    height: 300px;
+}
+
+#telephone .col-lg-4{
+    padding: 30px;
+    font-size: larger;
+    font-family: cursive;
+}
+
+#telephone .col-lg-4 h6{
+    font-size: 30px;
+}
+
+/* footer section*/
+
+#footer{
+    background-color: rgb(65, 64, 64);
+}
+
+/* list group section*/
+
+#list-group {
+    padding: 10px;
+}
+
+
+
+#list-group .container {
+    display: inline;
+}
+
+#boss .container .card{
+    font-family: cursive;
+}
+
+
+/* departments section */
+#main .col-md-9 .card {
+    font-size: large;
+    font-family: cursive;
+}
+
+#main .col-md-3 .card {
+    font-family: cursive;
+}
